@@ -1,0 +1,23 @@
+<package format="3">
+  <name>vr_JekkoController</name>
+  <version>0.0.1</version>
+  <description>ROS 2 package for controlling the Jekko</description>
+  <maintainer email="goerkem.can.ertemli@rwth-aachen.de">Görkem Can Ertemli</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <exec_depend>jekko_interfaces</exec_depend>
+  
+  <!-- External Python libraries -->
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-paho-mqtt</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

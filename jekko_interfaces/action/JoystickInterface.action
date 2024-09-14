@@ -1,0 +1,26 @@
+# Goal
+float32 abs_x
+float32 abs_y
+float32 abs_z
+float32 abs_rx
+float32 abs_ry
+float32 abs_rz
+float32 abs_hat0_x
+float32 abs_hat0_y
+int8 btn_a
+int8 btn_b
+int8 btn_x
+int8 btn_y
+int8 btn_l
+int8 btn_r
+int8 btn_select
+int8 btn_start
+int8 btn_home
+int8 btn_abs_left
+int8 btn_abs_right
+---
+# Result
+float32 value
+---
+# Feedback
+bool ack
